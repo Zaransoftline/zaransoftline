@@ -26,22 +26,6 @@
                 <i class="fa-brands fa-linkedin nav-ic"></i>
             </div>
         </div>
-        <div id="myModal" class="modal">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <div class="modal-header-item">Log In</div>
-                    <div class="modal-header-close"><i class="fa-solid fa-xmark x-mark"></i></div>
-                </div>
-                <div class="modal-body">
-                    <div class="modal-item"><img src="img/copiatek_logo1.png"></div>
-                    <div class="modal-item"><a class="nav-link">Home</a></div>
-                    <div class="modal-item"><span>Company</span><i class="fa-solid fa-chevron-down"></i></div>
-                    <div class="modal-item"><span>Our Work</span><i class="fa-solid fa-chevron-down"></i></div>
-                    <div class="modal-item"><span>News</span><i class="fa-solid fa-chevron-down"></i></div>
-                    <div class="modal-item">Contact</div>
-                </div>
-            </div>
-        </div>
     </header>
     <section class="main">
         <div class="container">
@@ -202,27 +186,5 @@
             </div>
         </div>
     </footer>
-    <script>
-        var modal = document.getElementsByClassName("modal")[0];
-
-var btn = document.getElementById("menu-btn");
-
-var span = document.getElementsByClassName("x-mark")[0];
- 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-
-span.onclick = function() {
-    modal.style.display = "none";
-}
-
-    </script>
 </body>
 </html>
