@@ -445,7 +445,7 @@ header {
     }
 }
 
-@media all and (min-width: 305px) and (max-width: 764px) {
+@media all and (min-width: 375px) and (max-width: 764px) {
     .footer-menus {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
