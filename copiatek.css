@@ -689,4 +689,7 @@ footer {
     .about {
         width: 320px;
     }
+    .contact {
+        width: 90%;
+    }
 }
