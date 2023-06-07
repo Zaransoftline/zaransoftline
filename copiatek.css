@@ -464,15 +464,6 @@ header {
     }
 }
 
-@media all and (min-width: 360px) and (max-width: 1150px) {
-    .container {
-        flex-direction: column;
-    }
-    .main {
-        height: 900px;
-    }
-}
-
 @media all and (min-width: 821px) and (max-width: 1350px) {
     .partner {
         width: 120px;
