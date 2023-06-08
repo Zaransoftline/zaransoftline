@@ -355,7 +355,7 @@ header {
     width: 50px;
 }
 
-@media all and (max-width: 820px) {
+@media all and (min-width: 375px) and (max-width: 820px) {
     .nav-item {
         display: none;
     }
@@ -404,27 +404,14 @@ header {
     .grid {
         width: 90%;
     }
+    .container {
+        flex-wrap: wrap;
+    }
 }
 
 @media all and (min-width: 821px) {
     #menu-btn {
         display: none;
-    }
-}
-
-
-@media all and (min-width: 820px) and (max-width: 1600px) {
-    .top-container {
-        flex-direction: column;
-        row-gap: 50px;
-        justify-content: center;
-
-    }
-    
-    .footer-top {
-        display: flex;
-        align-items: center;
-        height: 530px;
     }
 }
 
@@ -578,5 +565,36 @@ header {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 2rem;
+    }
+    .top-container {
+        padding-left: 35px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap ;
+    }
+}
+
+@media all and (min-width: 376px) and (max-width: 1440px) {
+    .container {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 50px;
+    }
+    .main-sub {
+        width: 700px;
+    }
+    .contents {
+        padding-top: 35px;
+    }
+    .top-container {
+        flex-direction: row;
+    }
+    .footer-top {
+        height: 400px;
+    }
+    .footer-menus {
+        gap: 100px;
     }
 }
